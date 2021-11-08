@@ -1,0 +1,136 @@
+body {
+ background-color: white;
+}
+.ttl{
+    padding-top: 100px;
+}
+.logo
+{
+    margin-top: 20px
+    margin-left: 20px
+}
+.header{
+position: absolute;
+ width: 100%;  
+background-image:url("img/hfon2.jpg")
+}
+.header2{
+
+ float: right;
+  width: 600px;
+}
+.menu{
+
+}
+.menu li{
+font-style: italic;
+font-size: 25px;
+list-style-type: none;
+display: inline-block;
+    margin-left:30px;
+}
+.menu li a {
+color: aqua;
+}
+.menu li a:hover {
+color: red;
+}
+.hdr{
+color: black;
+font-size: 18px;
+font-weight: 400;
+}
+.char li{
+color: royalblue;
+font-style: bold;
+font-size: 15px;
+list-style-type: lower-alpha;
+}
+.short{
+color: #707070;
+font-style: italic;
+font-size: 14px;
+line-height: 14px;
+}
+.full{
+color: #484343;
+text-align:left;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.form-letter input[type=text]{
+width:200px;
+height: 17px;
+font-size: 12px;
+color: blueviolet;
+text-transform: capitalize;
+}
+.pic {
+background-color:  blueviolet;
+width:202px;
+height:202px; 
+margin:0 auto ;
+text-align: center; /* Выравнивания картинки по центру в html */ 
+float: left;
+margin-right:15px;
+margin-left:15px;
+
+}
+.pic img{
+margin:1px auto 1px;
+}
+.pic:hover{
+background-color:  white;
+}
+#email:hover {
+    background-color: #ffe; /* Цвет фона */
+    color: #930; /* Цвет текста */    
+}
+.tth{
+color: royalblue;
+border-collapse: collapse;
+border: 1px solid grey;
+}
+
+.tth td {
+border: 1px solid grey;
+text-align: center;
+}
+.tth tr:first-child {
+color:  red;
+    line-height: 30px;  
+}
+
+.full:first-letter , .short:first-letter {
+ font-size: 25px;
+color: brown;   
+}
+.container
+{
+       width:100%;
+       height:100%;   
+}
+   #footer {
+    /*position: fixed; /* Фиксированное положение */
+    /*left: 0; bottom: 0; /* Левый нижний угол */
+    width: 100%; /* Ширина слоя */
+       font-size: 12px;
+height:40px; 
+       background: lightgrey;
+
+   }
+   #footer div{
+       position: absolute;
+              right:20px
+}
+.buy:hover {
+  background: yellow;
+  color: blue;
+  box-shadow: inset 0 0 0 3px #3a7999;
+}
+.buy:active {
+  background: red;
+  color: blue;
+  box-shadow: inset 0 0 0 3px #3a7999;
+}

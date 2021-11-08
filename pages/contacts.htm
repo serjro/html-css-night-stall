@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Magaz</title>
+     <link rel="stylesheet" type="text/css" href="../style.css">
+      <style type="text/css">
+
+   #footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    width: 100%; /* Ширина слоя */
+   }
+   .pic {
+text-align: center; /* Выравнивания картинки по центру в html */ 
+}
+  </style>
+</head>
+<body>
+         <div class="header">
+     <div class="header2">
+    <table><tr><td>
+    <img src="../img/logo.png" width=100 height=100/></td><td>
+    <ul class="menu">
+        <li><a href="../index.htm">Главная</a></li>
+        <li><a href="catalog.htm">Каталог</a></li>
+        <li><a href="contacts.htm">Контакты</a></li>
+        </ul></td></tr></table></div></div>
+ 
+<br><br><br><br><br><hr>
+    <h2 align="center">Напишите нам</h2><br>
+<form class="pic2" autocomplete="off" action='email.php' method='post' >
+<div class="form-letter" align="center"> 
+   <table>
+    <tr><th>
+                           <div align="right">Имя</div>
+    </th><th>
+                           <input type='text' name='username' required></th></tr>
+    <tr><th>
+                           <div align="right">Фамилия</div>
+    </th><th>
+                           <input type='text' name='soname' required></th></tr>      
+    <tr><th>
+                           <div align="right">Телефон</div>
+    </th><th>
+                           <input type='text' name='tel' required></th></tr>                                             
+    <tr><th>
+                            <div align="right">Email</div>
+    </th><th>
+                            <input type='text' name='email' id="email" required></th></tr>
+    <tr><th>
+                           <div align="right">Тема</div>
+    </th><th>
+                           <input type='text' name='subject' required></th></tr>
+    <tr><th>
+                           <div align="right">Сообщение</div>
+     </th><th>                      
+    <input type='text' name='message'>
+   </th></tr>
+      </table>
+      <br><br>
+  <input class="bot-send-mail" type='submit' value='Послать сообщение'>
+</div>
+
+</form>
+
+    
+   
+   
+    <h3>Наш ларек находится по адресу</h3>
+    <p> 8 (800) 500-91-20 </p>
+    <p>1600 Amphitheatre Parkway
+Mountain View, CA 94043
+United States.</p>
+   <p>support@gmail.com</p>
+   <div  align="center">
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aab678d7d8a26e15b4639b7b574bbbe9a1103dace6e8abf8c277d30bc88b34cb7&amp;width=100%&amp;height=374px&amp;lang=ru_RU&amp;scroll=true"></script>   
+</div>
+    <div id="footer">
+    <hr>
+     <div align="center">Все права защищены &copy; 2021.</div>
+     <br>
+    </div>
+</body>
+</html>
